@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/currencyInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduceți valuta (USD/EUR)"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/requestButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obține curs" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rezultatul va apărea aici"
+        android:paddingTop="16dp" />
+
+    <Button
+        android:id="@+id/navigateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navighează la Activitatea 2" />
+</LinearLayout>
