@@ -26,7 +26,7 @@ class CalculatorActivity : AppCompatActivity() {
             val num2 = number2.text.toString()
 
             if (num1.isNotEmpty() && num2.isNotEmpty()) {
-                val operation = "plus" // Poți schimba în "minus", "mul" sau "div"
+                val operation = "plus" // Poți schimba în "minus", "mul" ori "div"
                 val serverIp = "172.25.7.36"
                 val url = "http://$serverIp:8080/expr/expr_get.py?operation=$operation&t1=$num1&t2=$num2"
 
